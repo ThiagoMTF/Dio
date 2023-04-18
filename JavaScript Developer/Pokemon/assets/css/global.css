@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+.content{
+    padding: 1rem;
+}
+
+ol.pokemons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol.pokemons li{
+    padding: 2rem;
+    margin: 0.5rem;
+    background-color: #14A06F;
+    color: #fff;
+    border-radius: 1rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+ol.pokemons li img{
+    max-width: 100%;
+}
