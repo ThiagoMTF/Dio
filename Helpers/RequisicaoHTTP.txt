@@ -1,0 +1,12 @@
+Requisição http
+
+URL: https://pokeapi.co/api/v2/pokemon
+    --composta por ${IP}/${PATH}
+
+Request Method: GET | POST | PUT | DELETE
+
+
+//Passagem de parametro pela URL -> Method GET
+//Após final da URL '?'{parametro}={valor}
+//'&' -> mais de 1 valor
+https://pokeapi.co/api/v2/pokemon?offset=0&limit=10
